@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Hanken';
+    src: url('./hanken-book-webfont.eot');
+    src: url('./hanken-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./hanken-book-webfont.woff2') format('woff2'),
+    url('./hanken-book-webfont.woff') format('woff'),
+    url('./hanken-book-webfont.ttf') format('truetype'),
+    url('./hanken-book-webfont.svg#Hanken') format('svg');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Hanken';
+    src: url('./hanken-light-webfont.eot');
+    src: url('./hanken-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./hanken-light-webfont.woff2') format('woff2'),
+    url('./hanken-light-webfont.woff') format('woff'),
+    url('./hanken-light-webfont.ttf') format('truetype'),
+    url('./hanken-light-webfont.svg#Hanken') format('svg');
+    font-weight: 400;
+}

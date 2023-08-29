@@ -1,0 +1,50 @@
+.sp-widget-post-slider-section{
+	overflow: hidden;
+	max-width: 550px;
+}
+.sp-widget-post-slider-section .widget-post-slider{
+	position: relative;
+}
+.widget-post-slider .wps-caption{
+	background-color: rgba(34,34,34,0.77);
+	font-size: 14px;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.widget-post-slider .wps-caption a,
+.widget-post-slider .wps-caption a:hover{
+	color: #fff;
+}
+.sp-widget-post-slider-section .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	z-index: 22;
+	background-color: #00AFD1;
+	color: #fff;
+	width: 24px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+.sp-widget-post-slider-section .slick-arrow.slick-prev{
+	left: -35px;
+}
+.sp-widget-post-slider-section .slick-arrow.slick-next{
+	right: -35px;
+}
+.sp-widget-post-slider-section:hover .slick-arrow.slick-prev{
+	left: 0;
+}
+.sp-widget-post-slider-section:hover .slick-arrow.slick-next{
+	right: 0;
+}
